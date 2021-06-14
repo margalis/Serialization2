@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16" class="java.beans.XMLDecoder">
+ <object class="json_xmlTests.Human">
+  <void property="age">
+   <int>20</int>
+  </void>
+  <void property="car">
+   <object class="json_xmlTests.Car">
+    <void property="model">
+     <string>Honda</string>
+    </void>
+    <void property="year">
+     <int>2016</int>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>Mariam</string>
+  </void>
+  <void property="phones">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="json_xmlTests.Phones">
+      <void property="country">
+       <string>AM</string>
+      </void>
+      <void property="number">
+       <string>096857496</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="json_xmlTests.Phones">
+      <void property="country">
+       <string>AM</string>
+      </void>
+      <void property="number">
+       <string>098857496</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
